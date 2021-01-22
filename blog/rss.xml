@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>دیتاگیت Blog</title>
+        <link>https://massoudmaboudi.github.io/blog</link>
+        <description>دیتاگیت Blog</description>
+        <lastBuildDate>Sat, 02 Jan 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[نصب Homebrew]]></title>
+            <link>https://massoudmaboudi.github.io/datagit_v2.docusaurus/blog/homebrew-installation</link>
+            <guid>homebrew-installation</guid>
+            <pubDate>Sat, 02 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[asd]]></description>
+        </item>
+    </channel>
+</rss>
