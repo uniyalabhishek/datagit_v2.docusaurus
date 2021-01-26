@@ -1,14 +1,14 @@
 module.exports = {
   title: 'دیتاگیت',
   tagline: 'همیشه راه ساده تری هم هست.',
-  url: 'https://datagit.ir',
-  baseUrl: '/',
+  url: 'https://massoudmaboudi.github.io',
+  baseUrl: '/datagit_v2.docusaurus/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   // onBrokenMarkdownLinks:'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'massoudmaboudi', // Usually your GitHub org/user name.
-  projectName: 'datagit', // Usually your repo name.
+  projectName: 'datagit_v2.docusaurus', // Usually your repo name.
   themeConfig: {
     // Relative to your site's "static" directory.
     // Cannot be SVGs. Can be external URLs too.
@@ -262,9 +262,5 @@ module.exports = {
     ],
   ],
   scripts: [
-    {
-      src: 'https://unpkg.com/react-medium-image-zoom',
-      async: true,
-    }
   ],
 };

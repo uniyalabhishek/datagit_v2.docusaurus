@@ -58,8 +58,7 @@ keywords:
 image: "img/logo.svg"
 ---
 import Image from '@theme/IdealImage';
-import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
+
 import img1 from '@site/static/img/general/startingpoint/steve-jobs.png';
 import img2 from '@site/static/img/general/startingpoint/stackoverflow-survey-2020.png';
 
@@ -74,9 +73,7 @@ import img2 from '@site/static/img/general/startingpoint/stackoverflow-survey-20
 ## **چرا برنامه نویسی مهمه؟**
 
 <div className="col padding-vert--lg">
-  <Zoom zoomMargin={80}>
     <Image img={img1} />
-  </Zoom>
 </div>
 
 یه مدتیه که آدمای زیادی از جمله دوستای خودم دوست دارن برن دنبال برنامه نویسی. رشته دانشگاهیشون نیستا، فقط دوست دارن برن یاد بگیرن. دلیلش به خودشون مربوطه ولی، آیا چون بقیه میخوان برنامه نویسی یاد بگیرن، شما هم حتما باید یاد بگیرید؟‌ حالا من میخوام راجع به چندتا مسئله صحبت کنم که به نظر من چرا باید شما برنامه نویسی یاد بگیرید حتی اگه نخواید برنامه نویس بشید:
@@ -116,9 +113,7 @@ import img2 from '@site/static/img/general/startingpoint/stackoverflow-survey-20
 سایت [stackoverflow.com](https://stackoverflow.com) هر سال یه مقاله منتشر میکنه که توی اون راجع به خیلی چیزا صحبت میکنه. مثلا راجع به کشور های مختلف و رشته های مورد نیاز در اونها به تفکیک جنسیت و سن و خیلی فاکتورهای دیگه. یه قسمت جالبش راجع به زبان های برنامه نویسی هست که توی اون سال استفاده شدن. گراف زیر برای سال ۲۰۲۰ هستش.
 
   <div className="col padding-vert--lg">
-    <Zoom zoomMargin={80}>
-      <Image img={img2} />
-    </Zoom>
+    <Image img={img2} />
   </div>
 
 به نظر من شما میتونید هر زبان برنامه نویسی ای رو شروع کنید ولی بهتره که شروعش با یکی از زبان های بالا باشه که حداقل میدونید کلی آدم دیگه دارن ازشون استفاده میکنن.

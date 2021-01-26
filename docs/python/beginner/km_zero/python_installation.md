@@ -50,8 +50,7 @@ keywords:
 image: "/img/python/python-logo.svg"
 ---
 import Image from '@theme/IdealImage';
-import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
+
 import img1 from '@site/static/img/python/beginner/km_zero/python_installation/python-installation-1.png';
 import img2 from '@site/static/img/python/beginner/km_zero/python_installation/python-installation-2.png';
 import img3 from '@site/static/img/python/beginner/km_zero/python_installation/python-installation-3.png';
@@ -64,17 +63,13 @@ import img6 from '@site/static/img/python/beginner/km_zero/python_installation/p
 برای نصب آخرین نسخه پایتون باید به سایت [www.python.org](https://www.python.org/) برید تا یک چیزی مثل شکل زیر ببینید:
 
 <div className="col padding-vert--lg">
-  <Zoom zoomMargin={80}>
-    <Image img={img1} />
-  </Zoom>
+  <Image img={img1} />
 </div>
 
 برای اینکه به قسمت دانلود برید، روی اون فلشی که پایین صفحه کشیدم کلیک کنید. وارد یک صفحه جدید میشید. پایین صفحه برید تا جدول زیر رو ببینید:
 
 <div className="col padding-vert--lg">
-  <Zoom zoomMargin={80}>
-    <Image img={img2} />
-  </Zoom>
+  <Image img={img2} />
 </div>
 
 همونطور که میبینید، سمت چپ شکل رو شماره گذاری کردم تا راحت تر دانلود کنید.
@@ -92,17 +87,13 @@ import img6 from '@site/static/img/python/beginner/km_zero/python_installation/p
 وقتی که فایل مورد نظر رو دانلود کردید، روش دوتا کلیک کنید تا باز بشه. بعدش یک صفحه مثل صفحه زیر میاد:
 
 <div className="col padding-vert--lg">
-  <Zoom zoomMargin={80}>
-    <Image img={img3} />
-  </Zoom>
+  <Image img={img3} />
 </div>
 
 دوتا تیک پایین صفحه رو بزنید و گزینه Install Now بزنید تا نصب بشه. فقط بعد از نصب، قبل اینکه گزینه Close رو بزنید، روی گزینه Disable path length limit کلیک کنید حتما مثل شکل زیر!
 
 <div className="col padding-vert--lg">
-  <Zoom zoomMargin={80}>
-    <Image img={img4} />
-  </Zoom>
+  <Image img={img4} />
 </div>
 
 تبریک میگم، الان شما پایتون رو نصب کردید.
@@ -190,9 +181,7 @@ python -V
 اگر به بزرگ بودن حرف V دقت کرده باشید و دستوری که زدید ران بشه، یه چیزی مثل تصویر پایینو میبینید:
 
 <div className="col padding-vert--lg">
-  <Zoom zoomMargin={80}>
-    <Image img={img5} />
-  </Zoom>
+  <Image img={img5} />
 </div>
 
 ولی برای اینکه پایتون v3.8.2 یا ورژن های دیگه پایتون رو نصب کنید، بهتره از روشی که میگم استفاده کنید. دقت کنید که این آموزش بر مبنای پایتون v3.8.2 هستش ولی اگر ورژن دیگه ای رو نیاز داشتید، صرفا عدد ورژن رو تغییر بدید توی کدهای زیر.
@@ -230,9 +219,7 @@ python3.8 -V
 برای من که نوشت Python 3.8.2. یعنی کارمون درست بوده. دقت کنید که حرف V بزرگه. حالا برای استفاده از پایتون باید توی ترمینال بنویسید python3.8 و اینتر بزنید و بعدش میتونید از پایتون استفاده کنید، مثل شکل زیر:
 
 <div className="col padding-vert--lg">
-  <Zoom zoomMargin={80}>
-    <Image img={img6} />
-  </Zoom>
+  <Image img={img6} />
 </div>
 
 برای شروع، کد زیر رو بنویسید (کپی کنید) و دکمه اینتر رو بزنید:

@@ -30,15 +30,12 @@ image: "/img/python/python-logo.svg"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Image from '@theme/IdealImage';
-import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
+
 import img1 from '@site/static/img/blog/2021-01-02-homebrew-installation/2021-01-02-homebrew-installation-1.png';
 import img2 from '@site/static/img/blog/2021-01-02-homebrew-installation/2021-01-02-homebrew-installation-2.png';
 
 <div className="col padding-vert--lg">
-  <Zoom zoomMargin={80}>
     <Image img={img1} />
-  </Zoom>
 </div>
 
 توی این پست میخوایم ببینیم Homebrew چیه و چطور میتونه برای نصب پکیج توی مکینتاش کمکمون کنه.
@@ -66,9 +63,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 اپل در حال حاضر دو مدل Chipset تولید میکنه. سری اول که همون سری Intel هستش و مدل جدیدتر که به اسم سری M شناخته میشه. برای اینکه ببینید MacBook شما از کدوم سری هست، باید توی صفحه دسکتاپ، قسمت بالا سمت چپ، روی آیکون Apple کلیک کنید. بعدش گزینه About This Mac رو بزنید. یکی از دوتا شکل پایین رو میبینید:
 
 <div className="col padding-vert--lg">
-  <Zoom zoomMargin={80}>
     <Image img={img2} />
-  </Zoom>
 </div>
 
 اگر توی قسمت Processor مثل شکل سمت راست کلمه Intel رو دیدید یعنی chipset شما Intel هستش وگرنه که اگر مثل شکل سمت چپ باشه، chipset شما از سری جدید M هستش.
