@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{85:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"homebrew","name":"homebrew","count":1,"permalink":"/blog/tags/homebrew"}')}}]);
