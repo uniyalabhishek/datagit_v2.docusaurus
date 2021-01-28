@@ -2,7 +2,7 @@ module.exports = {
   title: 'دیتاگیت',
   tagline: 'همیشه راه ساده تری هم هست.',
   url: 'https://massoudmaboudi.github.io',
-  baseUrl: '/datagit_v2.docusaurus/',
+  baseUrl: '/',
   organizationName: 'massoudmaboudi', // Usually your GitHub org/user name.
   projectName: 'datagit_v2.docusaurus', // Usually your repo name.
   onBrokenLinks: 'throw',
