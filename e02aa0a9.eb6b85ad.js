@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[41],{111:function(a){a.exports=JSON.parse('{"allTagsPath":"/datagit_v2.docusaurus/blog/tags","slug":"mac-os","name":"macos","count":1,"permalink":"/datagit_v2.docusaurus/blog/tags/mac-os"}')}}]);

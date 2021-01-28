@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{79:function(a){a.exports=JSON.parse('{"allTagsPath":"/datagit_v2.docusaurus/blog/tags","slug":"homebrew","name":"homebrew","count":1,"permalink":"/datagit_v2.docusaurus/blog/tags/homebrew"}')}}]);
