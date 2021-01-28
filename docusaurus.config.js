@@ -3,12 +3,12 @@ module.exports = {
   tagline: 'همیشه راه ساده تری هم هست.',
   url: 'https://massoudmaboudi.github.io',
   baseUrl: '/datagit_v2.docusaurus/',
+  organizationName: 'massoudmaboudi', // Usually your GitHub org/user name.
+  projectName: 'datagit_v2.docusaurus', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   // onBrokenMarkdownLinks:'ignore',
   favicon: 'img/favicon.ico',
-  organizationName: 'massoudmaboudi', // Usually your GitHub org/user name.
-  projectName: 'datagit_v2.docusaurus', // Usually your repo name.
   themeConfig: {
     // Relative to your site's "static" directory.
     // Cannot be SVGs. Can be external URLs too.
