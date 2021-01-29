@@ -16,8 +16,8 @@ module.exports = {
     hideableSidebar: true,
     // googleAnalytics: {
     //   trackingID: 'G-98VZHCYVG8',
-    //   // Optional fields.
-    //   // anonymizeIP: true, // Should IPs be anonymized?
+    //   Optional fields.
+    //   anonymizeIP: true, // Should IPs be anonymized?
     // },
     gtag: {
       trackingID: 'G-98VZHCYVG8',
