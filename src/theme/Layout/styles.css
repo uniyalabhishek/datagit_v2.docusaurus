@@ -9,7 +9,7 @@ html,
 body {
   height: 100%;
   direction: rtl;
-  font-family: "Nunito Sans", "Vazir", 'Tahoma';
+  font-family: "Nunito Sans", "Iran Sans", 'Tahoma';
   font-weight: 400;
   color: var(--ifm-color-primary);
 }
