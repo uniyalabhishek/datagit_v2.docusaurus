@@ -18,6 +18,13 @@
   --ifm-code-font-size: 95%;
 }
 
+html,
+body {
+  font-family: "Nunito Sans", "Iran Sans";
+  font-weight: 400;
+  color: var(--ifm-color-primary);
+}
+
 p {
   text-align: justify;
 }
@@ -37,12 +44,34 @@ img {
   padding: 0 var(--ifm-pre-padding);
 }
 
+/* Heading */
+
+.hash-link:focus,
+*:hover > .hash-link {
+  opacity: 0.25 !important;
+}
+
+/* Footer */
+
+.footer__logo {
+  max-width: 2rem;
+}
+
+/* CodeBlock */
+
+.codeBlockContent {
+  direction: ltr !important;
+}
+
+/*
 .tabs {
   direction: ltr;
 }
+ */
 
 /* Navbar */
 
+/*
 .navbar-sidebar {
   transform: translateX(100%);
   right: 0;
@@ -63,9 +92,11 @@ img {
   margin-right: 0.3em;
   border-radius: var(--ifm-global-radius);
 }
+ */
 
 /* DocSidebar */
 
+/*
 .menu__list {
   padding-right: 0;
 }
@@ -89,17 +120,21 @@ img {
   left: 1rem;
   z-index: 1;
 }
+ */
 
 /* DocsPagination */
 
+/*
 .pagination-nav__item + .pagination-nav__item {
   margin-left: 0;
   margin-right: var(--ifm-spacing-horizontal);
   text-align: left;
 }
+ */
 
 /* TOC */
 
+/*
 .table-of-contents,
 .table-of-contents ul {
   padding-left: 0;
@@ -110,20 +145,25 @@ img {
   border-left: none;
   border-right: 1px solid var(--ifm-toc-border-color);
 }
+ */
 
 /* Admonitions */
 
+/*
 .admonition-icon {
   margin-right: 0;
   margin-left: 0.2rem;
 }
+ */
 
 /* Blog */
 
+/*
 .avatar__photo + .avatar__intro {
   margin-left: 0;
   margin-right: var(--ifm-avatar-intro-margin);
 }
+ */
 
 /* Fonts */
 
@@ -179,20 +219,26 @@ img {
 /* nunito-sans- */
 /* latin */
 @font-face {
-  font-family: 'Nunito Sans';
+  font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc9yAs5tU1ECVZl_.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc9yAs5tU1ECVZl_.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 
 /* latin */
 @font-face {
-  font-family: 'Nunito Sans';
+  font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9tAcVwo.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9tAcVwo.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
