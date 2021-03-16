@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[31],{101:function(a){a.exports=JSON.parse('{"mac-os":{"allTagsPath":"/blog/tags","slug":"mac-os","name":"macos","count":1,"permalink":"/blog/tags/mac-os"},"homebrew":{"allTagsPath":"/blog/tags","slug":"homebrew","name":"homebrew","count":1,"permalink":"/blog/tags/homebrew"}}')}}]);
