@@ -97,7 +97,7 @@ module.exports = {
       logo: {
         alt: 'لوگو دیتاگیت',
         src: 'img/logoGray.svg',
-        href: 'https://datagit.it',
+        // href: 'https://datagit.ir',
       },
       copyright: `دیتاگیت ۱۳۹۷ - امروز`,
     },
