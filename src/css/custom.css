@@ -80,13 +80,6 @@ img {
   border-radius: var(--ifm-global-radius);
 }
 
-/* Sidebar */
-
-.main-docs-wrapper [class^="docSidebarContainer"] {
-  border-left: 1px solid var(--ifm-toc-border-color);
-  border-right: none;
-}
-
 /*
 .menu--responsive .menu__button {
   background: var(--ifm-color-secondary);
