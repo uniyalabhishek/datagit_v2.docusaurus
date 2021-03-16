@@ -8,19 +8,19 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "serve": "docusaurus serve",
     "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "translate:fa": "docusaurus write-translations --locale fa_IR"
+    "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.3d00613e5",
-    "@docusaurus/plugin-ideal-image": "2.0.0-alpha.3d00613e5",
-    "@docusaurus/preset-classic": "2.0.0-alpha.3d00613e5",
+    "@docusaurus/core": "2.0.0-alpha.72",
+    "@docusaurus/plugin-ideal-image": "2.0.0-alpha.72",
+    "@docusaurus/preset-classic": "2.0.0-alpha.72",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "browserslist": {
     "production": [
