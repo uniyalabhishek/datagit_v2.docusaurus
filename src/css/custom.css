@@ -77,8 +77,6 @@ img {
 /* Navbar */
 
 .dropdown > .navbar__link:after {
-  margin-left: 0;
-  margin-right: 0.3em;
   border-radius: var(--ifm-global-radius);
 }
 
