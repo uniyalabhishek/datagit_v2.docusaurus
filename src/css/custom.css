@@ -82,10 +82,9 @@ img {
 
 /* CodeBlock */
 
-/* .codeBlockContainer_K1bP { */
-/* float: right !important;
-  direction: rtl; */
-/* } */
+.codeBlockContainer_K1bP {
+  direction: ltr;
+}
 
 .codeBlockLines_39YC {
   float: right !important;
