@@ -80,9 +80,19 @@ img {
   border-radius: var(--ifm-global-radius);
 }
 
-.copyButton_Ue-o {
+/* CodeBlock */
+
+.codeBlockContainer_K1bP {
+  float: right !important;
+  direction: rtl;
+}
+
+.copyButton_Ue-o clean-btn {
   right: unset !important;
   left: calc(var(--ifm-pre-padding) / 2) !important;
+
+  font-family: "Nunito Sans", "Iran Sans";
+  font-size: 0.6rem;
 }
 
 /*
