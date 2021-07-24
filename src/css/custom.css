@@ -80,9 +80,9 @@ img {
   border-radius: var(--ifm-global-radius);
 }
 
-.button [class^="copyButton_Ue-o clean-btn"] {
-  left: 0;
-  right: calc(var(--ifm-pre-padding)/2) !important;
+.copyButton_Ue-o {
+  right: unset !important;
+  left: calc(var(--ifm-pre-padding) / 2) !important;
 }
 
 /*
