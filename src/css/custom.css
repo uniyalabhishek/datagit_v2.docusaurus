@@ -82,12 +82,12 @@ img {
 
 /* CodeBlock */
 
-.codeBlockContainer_K1bP {
-  /* float: right !important;
+/* .codeBlockContainer_K1bP { */
+/* float: right !important;
   direction: rtl; */
-}
+/* } */
 
-.copyButton_Ue-o .clean-btn {
+.copyButton_Ue-o {
   right: unset !important;
   left: calc(var(--ifm-pre-padding) / 2) !important;
 
