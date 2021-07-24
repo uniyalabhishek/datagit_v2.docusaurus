@@ -83,11 +83,11 @@ img {
 /* CodeBlock */
 
 .codeBlockContainer_K1bP {
-  float: right !important;
-  direction: rtl;
+  /* float: right !important;
+  direction: rtl; */
 }
 
-.copyButton_Ue-o clean-btn {
+.copyButton_Ue-o .clean-btn {
   right: unset !important;
   left: calc(var(--ifm-pre-padding) / 2) !important;
 
