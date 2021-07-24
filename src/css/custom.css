@@ -80,6 +80,11 @@ img {
   border-radius: var(--ifm-global-radius);
 }
 
+.button [class^="copyButton_Ue-o clean-btn"] {
+  left: 0;
+  right: calc(var(--ifm-pre-padding)/2) !important;
+}
+
 /*
 .menu--responsive .menu__button {
   background: var(--ifm-color-secondary);
