@@ -56,22 +56,17 @@ img {
   padding: 0 var(--ifm-pre-padding);
 }
 
-/* hash-link */
-
-.hash-link {
-  padding-left: 0 !important;
-  padding-right: 0.5rem;
-}
-
-.hash-link:focus,
-*:hover > .hash-link {
-  opacity: 0.25 !important;
-}
-
 /* Footer */
 
 .footer__logo {
   max-width: 2rem;
+}
+
+/* hash-link */
+
+.hash-link:focus,
+*:hover > .hash-link {
+  opacity: 0.25 !important;
 }
 
 /* Navbar */
@@ -110,58 +105,6 @@ img {
   font-family: "Nunito Sans", "Iran Sans";
   font-weight: 600;
 }
-
-/*
-.menu--responsive .menu__button {
-  background: var(--ifm-color-secondary);
-  right: auto;
-  left: 1rem;
-  z-index: 1;
-}
- */
-
-/* DocsPagination */
-
-/*
-.pagination-nav__item + .pagination-nav__item {
-  margin-left: 0;
-  margin-right: var(--ifm-spacing-horizontal);
-  text-align: left;
-}
- */
-
-/* TOC */
-
-/*
-.table-of-contents,
-.table-of-contents ul {
-  padding-left: 0;
-  padding-right: var(--ifm-toc-padding-left);
-}
-
-.table-of-contents__left-border {
-  border-left: none;
-  border-right: 1px solid var(--ifm-toc-border-color);
-}
- */
-
-/* Admonitions */
-
-/*
-.admonition-icon {
-  margin-right: 0;
-  margin-left: 0.2rem;
-}
- */
-
-/* Blog */
-
-/*
-.avatar__photo + .avatar__intro {
-  margin-left: 0;
-  margin-right: var(--ifm-avatar-intro-margin);
-}
- */
 
 /* Fonts */
 
