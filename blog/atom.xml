@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://massoudmaboudi.github.io/blog</id>
+    <id>https://docusaurus-2.netlify.com/blog</id>
     <title>دیتاگیت Blog</title>
     <updated>2021-01-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://massoudmaboudi.github.io/blog"/>
+    <link rel="alternate" href="https://docusaurus-2.netlify.com/blog"/>
     <subtitle>دیتاگیت Blog</subtitle>
-    <icon>https://massoudmaboudi.github.io/img/favicon.ico</icon>
+    <icon>https://docusaurus-2.netlify.com/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[نصب Homebrew]]></title>
         <id>homebrew-installation</id>
-        <link href="https://massoudmaboudi.github.io/blog/homebrew-installation"/>
+        <link href="https://docusaurus-2.netlify.com/blog/homebrew-installation"/>
         <updated>2021-01-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[asd]]></summary>
     </entry>
