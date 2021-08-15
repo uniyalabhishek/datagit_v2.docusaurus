@@ -6,67 +6,98 @@
  */
 
 /* You can override the default Infima variables here. */
+/* #0366d6 */
 :root {
-  --ifm-color-primary: #203a43;
+  /* --ifm-color-primary: #203a43;
   --ifm-color-primary-dark: #1d343c;
   --ifm-color-primary-darker: #1b3139;
   --ifm-color-primary-darkest: #16292f;
   --ifm-color-primary-light: #23404a;
   --ifm-color-primary-lighter: #25434d;
-  --ifm-color-primary-lightest: #2a4b57;
+  --ifm-color-primary-lightest: #2a4b57; */
+  --ifm-color-primary: #0366d6;
+  --ifm-color-primary-dark: #035cc1;
+  --ifm-color-primary-darker: #0357b6;
+  --ifm-color-primary-darkest: #024796;
+  --ifm-color-primary-light: #0370eb;
+  --ifm-color-primary-lighter: #0375f6;
+  --ifm-color-primary-lightest: #1e86fc;
 
   --ifm-code-font-size: 95%;
+
+  --ifm-font-family-base: "Nunito Sans", "Iran Sans";
+  --ifm-heading-font-family: "Nunito Sans", "Iran Sans";
+
+  /* --ifm-footer-padding-horizontal: calc(var(--ifm-footer-padding-horizontal) / 2*3); */
 }
 
-html,
+button {
+  font-family: "Nunito Sans", "Iran Sans";
+}
+
+.footer {
+  background: var(--ifm-navbar-background-color);
+  color: #a4a4a4;
+  letter-spacing: 0.05em;
+  font-size: 0.8rem;
+  /* padding: calc(var(--ifm-footer-padding-vertical) * 1 / 2); */
+  padding: calc(var(--ifm-footer-padding-vertical) * 1 / 2)
+    var(--ifm-footer-padding-horizontal);
+  /* box-shadow: 0 -1px 2px 0px rgba(0, 0, 0, 0.1); */
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+/* html,
 body {
   font-family: "Nunito Sans", "Iran Sans";
   font-weight: 400;
   color: var(--ifm-color-primary);
-}
+} */
 
-h1 {
+/* h1 {
   font-size: 2.4rem !important;
-}
+} */
 
-h2 {
+/* h2 {
   font-size: 1.9rem !important;
-}
+} */
 
-h3 {
+/* h3 {
   font-size: 1.3rem !important;
-}
+} */
 
 p {
   text-align: justify;
-}
-
-.button {
-  background: white;
 }
 
 img {
   border-radius: var(--ifm-global-radius);
 }
 
-.docusaurus-highlight-code-line {
+/* .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
-}
+} */
 
 /* Footer */
 
-.footer__logo {
+/* .footer__logo {
   max-width: 2rem;
-}
+} */
 
 /* hash-link */
 
-.hash-link:focus,
+/* .hash-link:focus,
 *:hover > .hash-link {
   opacity: 0.25 !important;
+} */
+
+/* Sidebar */
+
+[class^="button button--secondary button--outline collapseSidebarButton_1CGd"] {
+  border-bottom: unset !important;
 }
 
 /* Navbar */
@@ -104,6 +135,15 @@ img {
 .avatar__name {
   font-family: "Nunito Sans", "Iran Sans";
   font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    font-size: 0.6rem;
+    /* padding: calc(var(--ifm-footer-padding-vertical) * 1 / 2); */
+    padding: calc(var(--ifm-footer-padding-vertical) * 1 / 3)
+      var(--ifm-footer-padding-horizontal);
+  }
 }
 
 /* Fonts */

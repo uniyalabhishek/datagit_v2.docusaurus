@@ -11,29 +11,32 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      noFooter={true}
       title="صفحه اصلی"
       description="وبسایت دیتاگیت برای این راه اندازی شده که شاید کمک کوچکی باشه برای کسانی که دوست دارند برنامه نویسی رو یاد بگیرن ولی همیشه فکر میکنن که کار سختیه! توی این وبسایت به هم کمک میکنیم تا مسیر یادگیری رو برای همدیگه آسان تر کنیم."
-      keywords={['مسعود معبودی', 'Massoud Maboudi', 'دیتاگیت', 'datagit', 'datagit.ir', 'مسعود معبودی رزومه', 'رزومه مسعود معبودی', 'Massoud Maboudi profile', 'دیتا گیت', 'مسعود معبودی دیتا گیت']}>
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      keywords={['مسعود معبودی', 'Massoud Maboudi', 'دیتاگیت', 'datagit', 'datagit.ir', 'مسعود معبودی رزومه', 'رزومه مسعود معبودی', 'Massoud Maboudi profile', 'دیتا گیت', 'مسعود معبودی دیتا گیت', 'آموزش پایتون', 'آموزش رایگان پایتون']}>
+      <header className="heroBanner">
         <div className="container">
-          <h1 className={styles.hero__title}>مسعود معبودی</h1>
-          <p className={styles.hero__subtitle}>{siteConfig.tagline}</p>
-          <Link
-            className={clsx(
-              'button button--outline button--secondary button--lg',
-              styles.getStarted,
-            )}
-            to={useBaseUrl('docs/')}>
-            شروع کنیم
-            </Link>
+          <div className="row">
+            <div className="col col--4 col--offset-1">
+              <h1 className="hero__title">{siteConfig.title}</h1>
+              <p className="hero__subtitle">{siteConfig.tagline}</p>
+              <div className={styles.buttons}>
+                <Link
+                  className={clsx(
+                    'button button--outline button--primary button--lg',
+                    styles.getStarted,
+                  )}
+                  to={useBaseUrl('docs/')}>
+                  از کجا شروع کنم؟
+                </Link>
+              </div>
+            </div>
+            <div className="col col--6 col--offset-1">
+              <img className={styles.heroImg} src="img/general/programmer.svg" alt='Programmer'/>
+            </div>
+          </div>
         </div>
       </header>
-      <footer className={clsx('hero hero--primary', styles.heroFooter)}>
-        <div className="container">
-          <p className={styles.customHero__subtitle}>Massoud Maboudi - Datagit.ir © 2018</p>
-        </div>
-      </footer>
     </Layout>
   );
 }

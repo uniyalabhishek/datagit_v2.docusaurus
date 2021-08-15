@@ -1,0 +1,76 @@
+/* stylelint-disable docusaurus/copyright-header
+
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner_contactus {
+  background: #0f2027;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+
+  text-align: center;
+  height: fit-content !important;
+  padding-bottom: 3rem !important;
+}
+
+[class^="hero__title_contactus"] {
+  font-size: 2.5rem !important;
+}
+
+[class^="hero__subtitle_contactus"] {
+  text-align: center !important;
+  font-weight: 300;
+  padding-bottom: 0 !important;
+  margin-bottom: 0.5rem;
+}
+
+.profile__picture_features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.profile__picture {
+  width: 13%;
+  height: auto;
+  margin: var(--ifm-heading-margin-top) 0 var(--ifm-heading-margin-bottom) 0;
+}
+.avatar__title {
+  font-size: calc(var(--ifm-h1-font-size) * 4 / 5);
+}
+
+.center__row {
+  justify-content: center;
+}
+
+.social__media_features {
+  padding: 0 0 2rem !important;
+}
+
+.social__media_pic {
+  margin: 0 0.75rem;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.social__media_pic:hover {
+  opacity: 0.75;
+}
+
+@media screen and (max-width: 996px) {
+  [class^="heroBanner_contactus"] {
+    padding: 2rem 0 !important;
+  }
+
+  .profile__picture {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile__picture {
+    width: 40%;
+  }
+}

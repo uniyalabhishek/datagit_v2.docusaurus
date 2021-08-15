@@ -10,9 +10,10 @@ module.exports = {
     }
   },
   title: 'دیتاگیت',
-  tagline: 'همیشه راه ساده تری هم هست.',
-  url: 'https://massoudmaboudi.github.io',
+  tagline: 'برای برنامه نویس شدن باید دست به کد شد!',
+  url: 'https://docusaurus-2.netlify.com',
   baseUrl: '/',
+  trailingSlash: false,
   organizationName: 'massoudmaboudi', // Usually your GitHub org/user name.
   projectName: 'datagit_v2.docusaurus', // Usually your repo name.
   onBrokenLinks: 'throw',
@@ -85,21 +86,25 @@ module.exports = {
           ],
         },
         {
-          to: "contact",
+          to: 'blog',
+          label: 'وبلاگ',
+          position: 'left'
+        },
+        {
+          to: "contactus",
           label: "تماس با من",
           position: "right",
         },
-        { to: 'blog', label: 'بلاگ', position: 'right' },
       ],
     },
     footer: {
-      style: 'light',
-      logo: {
-        alt: 'لوگو دیتاگیت',
-        src: 'img/logoGray.svg',
-        // href: 'https://datagit.ir',
-      },
-      copyright: `دیتاگیت ۱۳۹۷ - امروز`,
+      // style: 'light',
+      // logo: {
+      //   alt: 'لوگو دیتاگیت',
+      //   src: 'img/logoGray.svg',
+      //   // href: 'https://datagit.ir',
+      // },
+      copyright: `Massoud Maboudi - Datagit.ir © 2018-${new Date().getFullYear()}`,
     },
 
     // CodeBlock Theme,
@@ -147,8 +152,7 @@ module.exports = {
       {
         id: 'sitemap',
         changefreq: 'weekly',
-        priority: 0.5,
-        trailingSlash: false,
+        priority: 0.5
       },
     ],
   ],
