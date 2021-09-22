@@ -1,9 +1,9 @@
 ---
-id: introduction
-slug: /courses/python/tutorials/beginner/
-title: آموزش مقدماتی پایتون
-sidebar_label: آموزش مقدماتی پایتون
-pagination_label: آموزش مقدماتی پایتون
+id: windows
+# slug: /courses/python/tutorials/beginner/python_installation/windows
+title: نصب پایتون در ویندوز
+sidebar_label: نصب پایتون در ویندوز
+pagination_label: نصب پایتون در ویندوز
 hide_title: false
 hide_table_of_contents: false
 description: توی این آموزش میخوام راجع به مقدمات زبان پایتون با هم صحبت کنیم و ببینم چطور میشه یه زبان برنامه نویسی به سادگی پایتون، کارهای زیادی برامون انجام بده. سعی میکنم توی این دوره آموزشی، تمام موارد مورد نیاز برای شروع برنامه نویسی پایتون رو براتون بگم.

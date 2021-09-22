@@ -62,7 +62,7 @@ slug: /
 ---
 import Image from '@theme/IdealImage';
 
-import img1 from '@site/static/img/general/startingpoint/steve-jobs.png';
+import img1 from '@site/static/img/general/startingpoint/steve-jobs-quote.png';
 import img2 from '@site/static/img/general/startingpoint/stackoverflow-survey-2021.png';
 
 ## **من، کی ام؟**

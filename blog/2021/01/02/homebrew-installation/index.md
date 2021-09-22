@@ -1,48 +1,35 @@
 ---
-slug: homebrew-installation
 title: نصب Homebrew
-draft: false
+description: آموزش نصب Homebrew
+slug: homebrew-installation
+authors: [massoudmaboudi]
+tags: [macOS, Homebrew]
+image: ./img/homebrew.png
 hide_table_of_contents: false
-author: مسعود معبودی
-author_title: ادمین
-# author_url: https://github.com/endiliey
-author_image_url: "/img/general/massoudmaboudi.png"
-description: asd
+draft: false
 keywords: 
-  - اموزش برنامه نویسی
-  - برنامه نویسی را از کجا شروع کنیم؟
-  - برای برنامه نویسی از کجا شروع کنیم؟
-  - اموزش مقدماتی برنامه نویسی
-  - اموزش رایگان برنامه نویسی
-  - آموزش برنامه نویسی از صفر
-  - آموزش برنامه نویسی دیتاگیت
-  - آموزش برنامه نویسی دیتا گیت
-  - آموزش برنامه نویسی datagit
-  - برنامه نویسی دیتاگیت
   - نصب homebrew
   - اموزش نصب homebrew
   - نصب homebrew فارسی
   - نصب homebrew در مک
   - نصب homebrew در mac
-tags: [macOS, Homebrew]
-image: "/img/python/python-logo.svg"
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Image from '@theme/IdealImage';
 
-import img1 from '@site/static/img/blog/2021-01-02-homebrew-installation/2021-01-02-homebrew-installation-1.png';
-import img2 from '@site/static/img/blog/2021-01-02-homebrew-installation/2021-01-02-homebrew-installation-2.png';
+import homebrew from './img/homebrew.png';
+import mac_version from './img/mac_version.png';
 
-<div className="col padding-vert--lg">
-    <Image img={img1} />
+<div className="padding-vert--md">
+  <Image img={homebrew}/>
 </div>
 
 توی این پست میخوایم ببینیم Homebrew چیه و چطور میتونه برای نصب پکیج توی مکینتاش کمکمون کنه.
 
 <!--truncate-->
 
-اول از همه باید بگم که Homebrew یه Package Manager هستش که با استفاده از اون میتونید کلی پکیج های مختلفی نصب کنید و دردسرهای مختلف نصب اونها رو کم کنید.
+اول از همه باید بگم که Homebrew یه Package Manager هستش که با استفاده از اون میتونید کلی پکیج های مختلفی نصب کنید و دردسر‌های مختلف نصب اونها رو کم کنید.
 
 قبل از شروع کارمون باید مطمئن بشیم که ترمینال ما از جنس bash هست. البته اگر میخواید میتونید از ترمینال های دیگه مثل zsh هم استفاده کنید ولی این آموزش بر اساس bash هستش. برای شروع کد زیر رو توی ترمینال بزنید تا مطمئن بشیم از bash استفاده میکنیم. اگر ازتون پسورد خواست پسوردتون رو تایپ کنید.
 
@@ -82,8 +69,8 @@ xcode-select --install
 
 اپل در حال حاضر دو مدل Chipset تولید میکنه. سری اول که همون سری Intel هستش و مدل جدیدتر که به اسم سری M شناخته میشه. برای اینکه ببینید MacBook شما از کدوم سری هست، باید توی صفحه دسکتاپ، قسمت بالا سمت چپ، روی آیکون Apple کلیک کنید. بعدش گزینه About This Mac رو بزنید. یکی از دوتا شکل پایین رو میبینید:
 
-<div className="col padding-vert--lg">
-    <Image img={img2} />
+<div className="padding-vert--md">
+  <Image img={mac_version}/>
 </div>
 
 اگر توی قسمت Processor مثل شکل سمت راست کلمه Intel رو دیدید یعنی chipset شما Intel هستش وگرنه که اگر مثل شکل سمت چپ باشه، chipset شما از سری جدید M هستش.

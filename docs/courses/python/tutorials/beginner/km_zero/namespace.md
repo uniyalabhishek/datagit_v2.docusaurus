@@ -1,26 +1,13 @@
 ---
-id: local_global_variables
-title: متغیرهای محلی و سراسری
-sidebar_label: متغیرهای محلی و سراسری
+id: namespace
+title: دامنه و فضای متغیر
+sidebar_label: دامنه و فضای متغیر
 hide_title: false
 hide_table_of_contents: false
-description: متغیرهای محلی و سراسری|دیتاگیت
+description: دامنه و فضای متغیر
 keywords:
-  - آموزش مقدماتی Anaconda
-  - آموزش Anaconda
-  - نصب Anaconda
-  - آموزش نصب Anaconda
-  - نصب Anaconda در ویندوز
-  - نصب Anaconda در لینوکس
-  - نصب Anaconda در مک
-  - آموزش مقدماتی آناکوندا
-  - آموزش آناکوندا
-  - نصب آناکوندا
-  - آموزش نصب آناکوندا
-  - نصب آناکوندا در ویندوز
-  - نصب آناکوندا در لینوکس
-  - نصب آناکوندا در مک
-image: "/img/python/python-logo.svg"
+  - دامنه و فضای متغیر در پایتون
+image: "img/python/python-logo.svg"
 ---
 
 import Image from '@theme/IdealImage';

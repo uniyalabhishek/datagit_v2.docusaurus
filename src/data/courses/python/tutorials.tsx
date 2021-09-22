@@ -157,7 +157,7 @@ const Courses: Course[] = [
             description: "The description of Python Beginner course in the tutorials data of Python course"
         }),
         // preview: require('../../../static/img/general/massoudmaboudi.png'),
-        path: baseURL.concat('docs/courses/python/tutorials/introduction'),
+        path: baseURL.concat('docs/courses/python/tutorials/beginner/'),
         tags: ['beginner', 'favorite'],
     },
     // {

@@ -247,5 +247,4 @@ function ensureCourseValid(course: Course) {
         );
     }
 }
-console.log(require('@site/docs/courses/python/tutorials/beginner/introduction.md').default)
 Courses.forEach(ensureCourseValid);
