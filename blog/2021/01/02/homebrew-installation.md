@@ -4,7 +4,7 @@ description: آموزش نصب Homebrew
 slug: homebrew-installation
 authors: [massoudmaboudi]
 tags: [macOS, Homebrew]
-image: ./img/homebrew.png
+image: /img/blog/2021/01/02/homebrew-installation/homebrew.png
 hide_table_of_contents: false
 draft: false
 keywords: 
@@ -18,8 +18,8 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Image from '@theme/IdealImage';
 
-import homebrew from './img/homebrew.png';
-import mac_version from './img/mac_version.png';
+import homebrew from '/img/blog/2021/01/02/homebrew-installation/homebrew.png';
+import mac_version from '/img/blog/2021/01/02/homebrew-installation/mac_version.png';
 
 <div className="padding-vert--md">
   <Image img={homebrew}/>

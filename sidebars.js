@@ -9,10 +9,11 @@ module.exports = {
       type: 'category',
       label: 'راه‌اندازی پایتون',
       items: [
-        'courses/python/tutorials/beginner/get-ready/windows',
-        'courses/python/tutorials/beginner/get-ready/mac',
-        'courses/python/tutorials/beginner/get-ready/linux',
-        'courses/python/tutorials/beginner/get-ready/shell-and-idle'
+        'courses/python/tutorials/beginner/get-started/the-easiest-solution',
+        'courses/python/tutorials/beginner/get-started/python-windows-installation',
+        'courses/python/tutorials/beginner/get-started/mac',
+        'courses/python/tutorials/beginner/get-started/linux',
+        'courses/python/tutorials/beginner/get-started/shell-and-idle'
       ],
     },
     {

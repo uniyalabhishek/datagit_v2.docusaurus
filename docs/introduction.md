@@ -1,13 +1,13 @@
 ---
 id: introduction
-title: از کجا شروع کنیم؟
+slug: /
+title: از کجا شروع کنم؟
+description: توی این آموزش میخوام راجع به مقدمات زبان پایتون با هم صحبت کنیم و ببینم چطور میشه یه زبان برنامه نویسی به سادگی پایتون، کارهای زیادی برامون انجام بده. سعی میکنم توی این دوره آموزشی، تمام موارد مورد نیاز برای شروع برنامه نویسی پایتون رو براتون بگم.
 hide_title: false
 hide_table_of_contents: false
-sidebar_label: از کجا شروع کنیم؟
-# sidebar_position: 1
-pagination_label: از کجا شروع کنیم؟
-# custom_edit_url: https://datagit.ir/docs/introduction.md
-description: قبل از شروع کد نویسی، باید برای خودتون هدف تعیین کنید و مشخص کنید که چه مهارت‌هایی میخواید یاد بگیرید. اصلا چرا میخواید برنامه نویسی کنید؟ توی این قسمت سعی میکنیم راجع به این موضوع صحبت کنیم و با هم به یه نتیجه برسیم و بتونیم اولین قدم به سمت برنامه نویسی رو محکم برداریم.
+image: "img/logo.svg"
+pagination_label: از کجا شروع کنم؟
+sidebar_label: از کجا شروع کنم؟
 keywords:
   - اموزش برنامه نویسی
   - برنامه نویسی را از کجا شروع کنیم؟
@@ -57,13 +57,15 @@ keywords:
   - آموزش R پیشرفته
   - آموزش R انلاین
   - آموزش R آنلاین
-image: "img/logo.svg"
-slug: /
 ---
 import Image from '@theme/IdealImage';
 
-import img1 from '@site/static/img/general/startingpoint/steve-jobs-quote.png';
-import img2 from '@site/static/img/general/startingpoint/stackoverflow-survey-2021.png';
+import steve_jobs_quote from '/img/docs/get-started/steve-jobs-quote.png';
+import stackoverflow_survey_2021 from '/img/docs/get-started/stackoverflow-survey-2021.png';
+
+**شروع**، همیشه برای آدم‌ها سخت بوده! شروع یادگیری یک زبان برنامه‌نویسی هم همینطوره و تقریبا تمام آدم‌هایی که الان توی برنامه‌نویسی موفق هستن، یه روزی توی مرحله **شروع** بودن و اون رو پشت سر گذاشتن.
+
+توی این پست میخوام توضیحاتی رو از دید خودم بهتون بگم که شاید بتونه توی برداشتن قدم اول کمکتون کنه.
 
 ## **من، کی ام؟**
 
@@ -76,7 +78,7 @@ import img2 from '@site/static/img/general/startingpoint/stackoverflow-survey-20
 ## **چرا برنامه نویسی مهمه؟**
 
 <div className="padding-vert--md">
-  <Image img={img1}/>
+  <Image img={steve_jobs_quote}/>
 </div>
 
 یه مدتیه که آدمای زیادی از جمله دوستای خودم دوست دارن برن دنبال برنامه نویسی. رشته دانشگاهیشون نیست، فقط دوست دارن برن یاد بگیرن. دلیلش به خودشون مربوطه ولی، آیا چون بقیه میخوان برنامه نویسی یاد بگیرن، شما هم حتما باید یاد بگیرید؟‌ حالا من میخوام راجع به چندتا مسئله صحبت کنم که به نظر من چرا باید شما برنامه نویسی یاد بگیرید حتی اگه نخواید برنامه نویس بشید:
@@ -116,7 +118,7 @@ import img2 from '@site/static/img/general/startingpoint/stackoverflow-survey-20
 سایت [stackoverflow.com](https://stackoverflow.com) هر سال یه مقاله منتشر میکنه که توی اون راجع به خیلی چیزا صحبت میکنه. مثلا راجع به کشور های مختلف و رشته های مورد نیاز در اونها به تفکیک جنسیت و سن و خیلی فاکتورهای دیگه. یه قسمت جالبش راجع به زبان های برنامه نویسی هست که توی اون سال استفاده شدن. گراف زیر برای سال ۲۰۲۱ هستش.
 
 <div className="padding-vert--md">
-  <Image img={img2}/>
+  <Image img={stackoverflow_survey_2021}/>
 </div>
 
 به نظر من شما میتونید هر زبان برنامه نویسی ای رو شروع کنید ولی بهتره که شروعش با یکی از زبان های بالا باشه که حداقل میدونید کلی آدم دیگه دارن ازشون استفاده میکنن.

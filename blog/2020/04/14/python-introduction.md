@@ -4,7 +4,7 @@ description: معرفی زبان برنامه‌نویسی پایتون
 slug: python-introduction
 authors: [massoudmaboudi]
 tags: [Python]
-image: ./img/python.png
+image: /img/blog/2020/04/14/python-introduction/python.png
 hide_table_of_contents: false
 draft: false
 keywords: 
@@ -40,8 +40,8 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Image from '@theme/IdealImage';
 
-import python from './img/python.png';
-import stackoverflow_survey_2021 from '@site/static/img/general/startingpoint/stackoverflow-survey-2021.png';
+import python from '/img/blog/2020/04/14/python-introduction/python.png';
+import stackoverflow_survey_2021 from '/img/docs/get-started/stackoverflow-survey-2021.png';
 
 [python_beginner_course]: /docs/courses/python/tutorials/beginner/
 [stackoverflow.com]: https://stackoverflow.com
