@@ -6,7 +6,7 @@ authors: [massoudmaboudi]
 tags: [Python, IDE]
 # image: ./img/homebrew.png
 hide_table_of_contents: false
-draft: true
+draft: false
 keywords: 
   -  Thonny، یک محیط کد‌نویسی ساده برای پایتون
 ---
