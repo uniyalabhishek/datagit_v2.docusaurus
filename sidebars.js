@@ -11,8 +11,8 @@ module.exports = {
       items: [
         'courses/python/tutorials/beginner/get-started/the-easiest-solution',
         'courses/python/tutorials/beginner/get-started/python-windows-installation',
-        'courses/python/tutorials/beginner/get-started/mac',
-        'courses/python/tutorials/beginner/get-started/linux',
+        'courses/python/tutorials/beginner/get-started/python-mac-installation',
+        'courses/python/tutorials/beginner/get-started/python-linux-installation',
         'courses/python/tutorials/beginner/get-started/shell-and-idle'
       ],
     },

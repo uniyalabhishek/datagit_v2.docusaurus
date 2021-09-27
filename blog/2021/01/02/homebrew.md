@@ -1,7 +1,7 @@
 ---
 title: نصب Homebrew
 description: آموزش نصب Homebrew
-slug: homebrew-installation
+slug: homebrew
 authors: [massoudmaboudi]
 tags: [macOS, Homebrew]
 image: /img/blog/2021/01/02/homebrew-installation/homebrew.png
@@ -65,9 +65,9 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-توی این قسمت باید با توجه به مدل MacBook، کد مورد نظر رو اجرا کنید.
+توی این قسمت باید با توجه به مدل Mac، کد مورد نظر رو اجرا کنید.
 
-اپل در حال حاضر دو مدل Chipset تولید میکنه. سری اول که همون سری Intel هستش و مدل جدیدتر که به اسم سری M شناخته میشه. برای اینکه ببینید MacBook شما از کدوم سری هست، باید توی صفحه دسکتاپ، قسمت بالا سمت چپ، روی آیکون Apple کلیک کنید. بعدش گزینه About This Mac رو بزنید. یکی از دوتا شکل پایین رو میبینید:
+اپل در حال حاضر دو مدل Chipset تولید میکنه. سری اول که همون سری Intel هستش و مدل جدیدتر که به اسم سری M شناخته میشه. برای اینکه ببینید Mac شما از کدوم سری هست، باید توی صفحه دسکتاپ، قسمت بالا سمت چپ، روی آیکون Apple کلیک کنید. بعدش گزینه About This Mac رو بزنید. یکی از دوتا شکل پایین رو میبینید:
 
 <div className="padding-vert--md">
   <Image img={mac_version}/>
