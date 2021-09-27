@@ -5,7 +5,7 @@ title: نصب پایتون در ویندوز
 description: نصب پایتون در ویندوز
 hide_title: false
 hide_table_of_contents: false
-image: "/img/blog/2021/10/25/thonny-ide/python-and-thonny.png"
+image: "/img/logos/python-logo.svg"
 pagination_label: نصب پایتون در ویندوز
 sidebar_label: نصب پایتون در ویندوز
 keywords:
@@ -29,6 +29,9 @@ import python_windows_installation_1 from '/img/docs/courses/python/beginner/get
 import python_windows_installation_2 from '/img/docs/courses/python/beginner/get-started/python-windows-installation/python-windows-installation-2.png';
 import python_windows_installation_3 from '/img/docs/courses/python/beginner/get-started/python-windows-installation/python-windows-installation-3.png';
 import python_windows_installation_4 from '/img/docs/courses/python/beginner/get-started/python-windows-installation/python-windows-installation-4.png';
+import python_windows_installation_5 from '/img/docs/courses/python/beginner/get-started/python-windows-installation/python-windows-installation-5.png';
+import python_windows_installation_6 from '/img/docs/courses/python/beginner/get-started/python-windows-installation/python-windows-installation-6.png';
+import python_windows_installation_7 from '/img/docs/courses/python/beginner/get-started/python-windows-installation/python-windows-installation-7.png';
 
 بهترین راه و سریع‌ترین راه برای نصب پایتون توی ویندوز اینه که فایل مناسب رو از سایت پایتون دانلود و نصب کنیم.
 
@@ -50,7 +53,7 @@ import python_windows_installation_4 from '/img/docs/courses/python/beginner/get
 
 ## **نصب پایتون**
 
-:::info یادداشت
+:::info بیشتر بدانید
 
 باید خدمتتون عرض کنم که نصب ورژن‌های مختلف پایتون تفاوت چندانی نداره و ممکنه ورژنی که شما دانلود میکنید با چیزی که توی این آموزش ازش استفاده شده متفاوت باشه. پس نگران نباشید.
 
@@ -73,5 +76,47 @@ import python_windows_installation_4 from '/img/docs/courses/python/beginner/get
 
 تبریک میگم. حالا شما آخرین نسخه پایتون رو نصب کردید.
 
-## **اولین برنامه**
+## **اولین برنامه پایتون**
 
+حالا باید محیط برنامه نویسی پایتون رو باز کنید. برای این کار، منو استارت رو باز کنید و **Python** رو سرچ کنید. باید عکسی شبیه عکس زیر ببینید:
+
+
+<div className="padding-vert--md">
+  <Image img={python_windows_installation_5}/>
+</div>
+
+- اگر روی **Python 3.9 (64-bit)** کلیک کنید، **Python Shell** نمایش داده میشه.
+
+- اگر روی **IDLE (Python 3.9 64-bit)** کلیک کنید، **Python IDLE** نمایش داده میشه.
+
+بریم تا بررسی کنیم تفاوت این دوتا محیط چیه.
+
+### Python Shell
+
+<div className="padding-vert--md">
+  <Image img={python_windows_installation_6}/>
+</div>
+
+اسم این محیط سیاه رنگ، **Shell** هست. خوبیه این محیط اینه که دستورات ساده پایتون رو میتونید توش اجرا کنید. برای مثال کد زیر رو میتونید توی این محیط بنویسید و کلید **Enter** رو بزنید تا نتیجه کار رو ببینید:
+
+```python title="Python"
+print("Hello World!")
+```
+
+البته باید این رو در نظر بگیرید که اگر این پنجره ببندید، تمام کدهایی که نوشتید پاک میشه.
+
+### Python IDLE
+
+<div className="padding-vert--md">
+  <Image img={python_windows_installation_7}/>
+</div>
+
+محیط **IDLE** با نصب پایتون قابل استفاده هستش. 
+
+این محیط نسبت به **Python Shell** قابلیت‌های بیشتری داره. مثلا کدها رو به صورت رنگی نمایش میده و اگر کدی رو به اشتباه تایپ کنید، به راحتی متوجه اون میشید.
+
+برای مثال کد زیر رو میتونید توی این محیط بنویسید و کلید **Enter** رو بزنید تا نتیجه کار رو ببینید:
+
+```python title="Python"
+print("Hello World!")
+```
