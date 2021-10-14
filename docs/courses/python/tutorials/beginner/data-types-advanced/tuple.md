@@ -20,7 +20,7 @@ keywords:
   - نصب آناکوندا در ویندوز
   - نصب آناکوندا در لینوکس
   - نصب آناکوندا در مک
-image: "/img/python/python-logo.svg"
+image: "/img/logos/python-logo.svg"
 ---
 
 import Image from '@theme/IdealImage';

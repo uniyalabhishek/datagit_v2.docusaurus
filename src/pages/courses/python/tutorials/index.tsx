@@ -24,7 +24,7 @@ const TITLE = translate({
 
 const DESCRIPTION = translate({
     id: "pages.courses.python.tutorials.main.description",
-    message: "آموزش های پروژه محور، بهترین روش برای یادگیری هستن",
+    message: "آموزش‌های پروژه محور، بهترین روش برای یادگیری هستن",
     description: "The main description in the tutorials page in Python course"
 })
 

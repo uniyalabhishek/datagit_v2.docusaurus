@@ -61,7 +61,7 @@ function SectionsInner() {
                             <img className={styles.headerImgMobile} src="/img/python/python-logo.svg" />
                             <div>
                                 <h2 className={styles.sections__title}>آموزش زبان برنامه نویسی پایتون</h2>
-                                <p className={styles.sections__subtitle}>پایتون یک زبان برنامه نویسی بسیار قدرتمند هست که در زمنیه های مختلف مثل علم داده، ساخت وبسایت و حتی طراحی نرم افزار کاربرد داره.<br /><br />خوشبختانه این زبان قواعد ساده ای داره و برای همین یکی از بهترین گزینه ها برای شروع برنامه نویسی هست.</p>
+                                <p className={styles.sections__subtitle}>پایتون یک زبان برنامه نویسی بسیار قدرتمند هست که در زمینه‌های مختلف مثل علم داده، ساخت وبسایت و حتی طراحی نرم افزار کاربرد داره.<br /><br />خوشبختانه این زبان قواعد ساده ای داره و برای همین یکی از بهترین گزینه ها برای شروع برنامه نویسی هست.</p>
                                 {/* <div className="search"> */}
                                 {/* <input
                                     className={classnames("shadow--lw", styles.cookbookSearch)}

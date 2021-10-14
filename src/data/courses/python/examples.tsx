@@ -89,12 +89,12 @@ export const Tags: Record<TagType, Tag> = {
     decision_making_and_loops: {
         label: translate({
             id: "src.data.courses.python.examples.Tags.decision_making_and_loops.label",
-            message: "توابع شرطی و حلقه های تکرار",
+            message: "توابع شرطی و حلقه‌های تکرار",
             description: "The label of decision making and loops tag in the examples data of Python course"
         }),
         description: translate({
             id: "src.data.courses.python.examples.Tags.decision_making_and_loops.description",
-            message: "مثال‌های توابع شرطی و حلقه های تکرار پایتون",
+            message: "مثال‌های توابع شرطی و حلقه‌های تکرار پایتون",
             description: "The description of decision making and loops tag in the examples data of Python course"
         }),
         // icon: <></>,

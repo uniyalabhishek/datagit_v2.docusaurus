@@ -10,7 +10,7 @@ const sectionsItems = [
     {
         title: translate({
             id: "pages.courses.python.main.sectionsItems.tutorials.title",
-            message: "آموزش ها",
+            message: "آموزش‌ها",
             description: "The title of section of tutorials in the Python course"
         }),
         description: translate({
@@ -24,7 +24,7 @@ const sectionsItems = [
     {
         title: translate({
             id: "pages.courses.python.main.sectionsItems.examples.title",
-            message: "مثال ها",
+            message: "مثال‌ها",
             description: "The title of section of examples in the Python course"
         }),
         description: translate({
@@ -89,7 +89,7 @@ const HEADER_TITLE =
 
 const HEADER_SUBTITLE = translate({
     id: "pages.courses.python.main.headerSubtitle",
-    message: "پایتون یک زبان برنامه نویسی بسیار قدرتمند هست که در زمنیه های مختلف مثل علم داده، ساخت وبسایت و حتی طراحی نرم افزار کاربرد داره.\n\nخوشبختانه این زبان قواعد ساده ای داره و برای همین یکی از بهترین گزینه ها برای شروع برنامه نویسی هستش.",
+    message: "پایتون یک زبان برنامه نویسی بسیار قدرتمند هست که در زمینه‌های مختلف مثل علم داده، ساخت وبسایت و حتی طراحی نرم افزار کاربرد داره.\n\nخوشبختانه این زبان قواعد ساده ای داره و برای همین یکی از بهترین گزینه‌ها برای شروع برنامه نویسی هستش.",
     description: "The header subtitle in the Python course"
 })
 
@@ -121,10 +121,10 @@ function SectionsInner() {
                 <div className="container">
                     <div className="row">
                         <div className={clsx(styles.header_logo, "col col--4")}>
-                            <img className={styles.header_logo__img} src="/img/python/python-logo.svg" />
+                            <img className={styles.header_logo__img} src="/img/logos/python-logo.svg" />
                         </div>
                         <div className={clsx(styles.header_desc, "col col--6")}>
-                            <img className={styles.header_desc__img_mobile} src="/img/python/python-logo.svg" />
+                            <img className={styles.header_desc__img_mobile} src="/img/logos/python-logo.svg" />
                             <div>
                                 <h1 className={styles.header_desc__title}>{HEADER_TITLE}</h1>
                                 <p className={styles.header_desc__subtitle}>{HEADER_SUBTITLE}</p>

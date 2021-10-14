@@ -73,13 +73,13 @@ function Support() {
   return (
     <Layout
       title="تماس با من"
-      description="توی این صفحه میتونید راه های ارتباط با من رو پیدا کنید. میتونید نظرتون رو بهم بگید یا اینکه یه آموزش جدید درخواست بدید. راستی، راجع به همکاری هم میتونیم صحبت کنیم."
+      description="توی این صفحه میتونید راه‌های ارتباط با من رو پیدا کنید. میتونید نظرتون رو بهم بگید یا اینکه یه آموزش جدید درخواست بدید. راستی، راجع به همکاری هم میتونیم صحبت کنیم."
       keywords={['مسعود معبودی', 'Massoud Maboudi', 'دیتاگیت', 'datagit', 'datagit.ir', 'مسعود معبودی رزومه', 'رزومه مسعود معبودی', 'Massoud Maboudi profile', 'دیتا گیت', 'مسعود معبودی دیتا گیت', 'آموزش پایتون', 'آموزش رایگان پایتون']}>
       <div className={clsx(styles.custom_container)}>
         <header className={clsx(styles.heroBanner_contactus, 'hero hero--primary')}>
           <div className='container'>
             <h1 className={styles.hero__title_contactus}>دیتاگیت</h1>
-            <p className={styles.hero__subtitle_contactus}>توی این صفحه میتونید راه های ارتباط با من رو پیدا کنید. میتونید نظرتون رو بهم بگید یا اینکه یه آموزش جدید درخواست بدید.</p>
+            <p className={styles.hero__subtitle_contactus}>توی این صفحه میتونید راه‌های ارتباط با من رو پیدا کنید. میتونید نظرتون رو بهم بگید یا اینکه یه آموزش جدید درخواست بدید.</p>
             <p className={styles.hero__subtitle_contactus}>راستی، راجع به همکاری هم میتونیم صحبت کنیم.</p>
           </div>
         </header>
